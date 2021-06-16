@@ -1,0 +1,28 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
+        "d:\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar"
+    ],
+    "java.completion.enabled": false,
+    "java.debug.settings.enableRunDebugCodeLens": false,
+    "java.dependency.packagePresentation": "hierarchical",
+
+    "launch": {
+        "configurations": [
+            {
+                "type": "java",
+                "name": "Launch JavaFX",
+                "request": "launch",
+                "vmArgs": "--module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml,javafx.media",
+                "mainClass": "App"
+            }
+        ]
+    }
+}

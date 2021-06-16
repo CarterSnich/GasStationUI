@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<DialogPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="110.0" minWidth="370.0" prefHeight="110.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <graphic>
+      <AnchorPane prefHeight="110.0" prefWidth="100.0">
+         <children>
+            <ImageView fx:id="graphic_imageview" fitHeight="80.0" fitWidth="80.0" layoutX="-27.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@img/jolly.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
+   </graphic>
+   <content>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="168.0" prefWidth="270.0">
+         <children>
+            <GridPane layoutX="-3.0" layoutY="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="92.0" prefWidth="263.0" AnchorPane.bottomAnchor="-20.0" AnchorPane.leftAnchor="-10.0" AnchorPane.rightAnchor="-10.0" AnchorPane.topAnchor="0.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="129.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="123.0" minWidth="10.0" prefWidth="121.0" />
+                <ColumnConstraints hgrow="NEVER" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="ok_button" maxHeight="25.0" maxWidth="75.0" minHeight="25.0" minWidth="75.0" mnemonicParsing="false" onAction="#ok_button_action" prefHeight="25.0" prefWidth="75.0" text="OK" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+                  <Label fx:id="content_label" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="252.0" prefWidth="260.0" text="Lorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die assholeLorem ipsum dolor shit motherfucker betch die asshole" wrapText="true" GridPane.columnSpan="2" GridPane.rowSpan="2" GridPane.vgrow="ALWAYS" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </content>
+</DialogPane>

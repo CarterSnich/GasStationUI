@@ -1,0 +1,115 @@
+.body {
+    background-color: #2f2f2f;
+    -fx-background-color: #2f2f2f;
+    -fx-effect: innershadow(gaussian, #000000c5, 20, 0.4, 0, 0);
+}
+
+
+/* BUTTON */
+.button {
+    background-color: #1f8fe8;
+    -fx-background-color: #1f8fe8;
+    -fx-effect: dropshadow(three-pass-box, #00000099, 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-effect: innershadow(three-pass-box, #00000099, 5, 0.4, 0, 0);
+}
+
+.button:armed {
+    -fx-effect: innershadow(gaussian, #00000099, 5, 0.8, 0, 0);
+}
+
+
+/* TEXTFIELD */
+.textfield {
+    background-color: #00000000;
+    border-color: #1f8fe8 ;
+    border-width: 0 0 2 0; 
+    border-style: solid ;
+    padding: 0;
+    -fx-background-color: #00000000;
+    -fx-border-color: #1f8fe8 ;
+    -fx-border-width: 0 0 2 0; 
+    -fx-border-style: solid ;
+    -fx-text-fill: white;
+    -fx-padding: 0;
+}
+
+
+/* PROGRESS INDICATOR */
+.progress-indicator .percentage {
+    fill: null;
+    -fx-fill: null;
+}
+
+
+/* LITRES LABEL */
+.litres-label {
+    background-color: #000000bd;
+    -fx-background-color: #000000bd;
+}
+
+/* START FILL BUTTON */
+.start-fill-button {
+    background-color: #00000000;
+    -fx-background-color: #00000000;
+}
+
+.start-fill-button:hover {
+    background-color: #000000bd;
+    -fx-background-color: #000000bd;
+}
+
+
+/* FUEL BUTTONS */
+.fuel-button {
+    background-color: #0000;
+    border-color: #1f8fe8;
+    padding: 6 0;
+    border-width: 2;
+    border-radius: 4;
+    -fx-padding: 6 0;
+    -fx-border-width: 2;
+    -fx-border-radius: 4;
+    -fx-background-color: #0000;
+    -fx-border-color: #1f8fe8;
+    -fx-effect: dropshadow(three-pass-box, #00000099, 5, 0.0, 0, 1);
+}
+
+.fuel-button:hover {
+    -fx-text-fill: white;
+    -fx-effect: innershadow(three-pass-box, #ff0000b2, 5, 0.4, 0, 0);
+}
+
+
+/* ACTIVE FUEL BUTTON */
+.active-fuel-button {
+    background-color: #e81f1f;
+    border-color: #ff0000;
+    -fx-text-fill: white;
+    -fx-background-color: #e81f1f;
+    -fx-border-color: #ff0000;
+    -fx-effect: dropshadow(three-pass-box, #00000099, 5, 0.0, 0, 1);
+}
+
+/* SWIPE PANEL */
+
+.swipe-panel {
+    
+}
+
+/* START BUTTON */
+.start-button {
+    background-color: #00000000;
+    -fx-background-color: #00000000;
+}
+
+.start-button:hover {
+    background-color: #0000006e;
+    -fx-background-color: #0000006e;
+}
+
+.start-button:armed {
+    -fx-effect: innershadow(gaussian, #00000099, 5, 0.8, 0, 0);
+}
